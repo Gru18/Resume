@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            background-color: powderlime;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        #header, #footer {
+            background: #f1f1f1;
+            padding: 10px;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .left, .right {
+            width: 20%;
+            background: #ddd;
+            padding: 10px;
+        }
+        .stuff {
+            width: 60%;
+            padding: 20px;
+            margin: 0 auto;
+        }
+        .head {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header">Header</div>
+        <div class="content">
+            <div class="left">Left Sidebar</div>
+            <div class="stuff">
+                <h1>Resume</h1>
+                <h2>Josemar Aldana</h2>
+                <p>I am currently studying IT at the University of Belize</p>
+                <hr />
+                <p class="head">Interests</p>
+                <ul>
+                    <li>Software developer</li>
+                    <li>Programming</li>
+                    <li>Computer Science</li>
+                </ul>
+                <p class="head">Skills</p>
+                <ul>
+                    <li>Web Design with HTML</li>
+                    <li>C++</li>
+                </ul>
+                <p>
+                    <a href="https://www.ub.edu.bz/apply-now/">University of Belize</a>
+                </p>
+                <p>
+                    <img src="C:\Users\josem\OneDrive\Documents\My_HTML\ub-image.jpg" alt="UB">
+                </p>
+            </div>
+            <div class="right">Right Sidebar</div>
+        </div>
+        <div id="footer">Footer</div>
+    </div>
+</body>
+</html>
